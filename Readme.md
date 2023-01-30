@@ -5,7 +5,7 @@ Node4i is a comprehensive IIoT platform that enables industrial organizations to
 ## Features
 - Supports multiple IO protocols including Kafka, AMQP, MQTT, HTTP, OPC UA, S7 Siemens, and Modbus
 - Ability to run on edge and cloud environments
-- Support for unified device management (UDT) and device integration
+- Support for unified decision tree(UDT) and device integration
 - Historical data archiving and access to node values
 - Advanced event management and monitoring capabilities
 - Robust security features to ensure data privacy and security
