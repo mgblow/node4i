@@ -10,6 +10,7 @@ Node4i is a comprehensive IIoT platform that enables industrial organizations to
 - Advanced event management and monitoring capabilities
 - Robust security features to ensure data privacy and security
 
+
 ## Description
 
 Node4i is an Industrial IoT platform designed for I4 solutions. It offers a unified and standardized approach to enable I4 technologies and concepts in industrial environments.
