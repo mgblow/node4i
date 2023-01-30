@@ -4,7 +4,7 @@ Welcome to the Node4i documentation, where you'll find all the information you n
 
 ## Table of Contents
 
-- [IO Management](./IO-Management/README.md)
+- [IO Management](./IO-Management/Readme.md)
 - [Alarm & Events](./Alarm-Events/README.md)
 - [Historian](./Historian/README.md)
 - [Runtime & Components](./Runtime-Components/README.md)
