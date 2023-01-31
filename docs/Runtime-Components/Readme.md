@@ -39,3 +39,50 @@ events can be used to trigger notifications or actions in the system.
 6. Increased Flexibility: The component provides the ability to manage nodes and their configuration, enabling the
    customization of the system according to the requirements and increasing the flexibility of the process.
 
+UDT platform provides two types of runtime components that can be used for various industrial processes: General
+Component and Windowing Component.
+
+## General Component
+
+General Components are a type of runtime component that allows users to have their own script including specific
+functionalities and libraries. This type of component can be used to execute custom logic, integrate with external
+systems, perform data manipulation and processing, and much more.
+
+Here are some benefits of using General Components:
+
+1. Flexibility: General Components allow users to have full control over the logic and functionality of their component,
+   enabling them to implement custom business logic as per their requirements.
+2. Integration: General Components can be used to integrate with external systems, making it possible to perform tasks
+   like data retrieval, data processing, and data storage.
+
+3. Automation: General Components can be used to automate tasks, such as data processing and retrieval, making it
+   possible to perform these tasks in real-time, without manual intervention.
+
+- Go to Dashboard
+- Choose a location in UDT
+- Choose "Add General Component"
+- Fill the required parameters
+
+## Windowing Component
+
+Windowing Components are a type of runtime component that allows users to choose specific nodes and observe their
+changes over a specified duration. This type of component is useful for monitoring real-time data and detecting changes
+in the system.
+
+Here are some benefits of using Windowing Components:
+
+1. Real-time monitoring: Windowing Components enable real-time monitoring of system data, making it possible to detect
+   changes in the system and respond quickly.
+
+2. Data Analysis: Windowing Components allow users to observe data changes over a specified duration, making it possible
+   to perform data analysis and identify patterns in the system.
+
+3. Automated Actions: Windowing Components can be used to trigger automated actions based on the data changes observed
+   over the specified duration, enabling users to respond quickly to changes in the system.
+
+4. Overall, the use of runtime components in the UDT platform offers a wide range of benefits for industrial processes,
+   including improved efficiency, better data analysis, and real-time monitoring and response.
+
+- Go to Dashboard
+- Choose "Add Windowing Component"
+- Fill the required parameters
