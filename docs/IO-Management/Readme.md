@@ -20,16 +20,12 @@ The IO Management component of Node4i provides a comprehensive set of features f
 
 The following documentation is provided to assist with using and configuring the IO Management component of Node4i:
 
-1. Protocol Support Guide: Provides information on the communication protocols supported by Node4i, including setup instructions and configuration options.
+1. [Protocol Support Guide](./Protocol-Support.md): Provides information on the communication protocols supported by Node4i, including setup instructions and configuration options.
 
-2. Device Management Guide: Details the process of monitoring and controlling field devices, including device discovery, communication setup, and data acquisition.
+2. [Device Management Guide](./Device-Management.md): Details the process of monitoring and controlling field devices, including device discovery, communication setup, and data acquisition.
 
-3. Real-time Data Processing Guide: Describes the real-time data collection and processing capabilities of Node4i, including data filtering and transformation.
+3. Configuration Guide: Offers guidance on customizing Node4i to meet specific industrial requirements, including configuration options and best practices.
 
-4. Historical Data Management Guide: Outlines the historical data management features of Node4i, including data storage, retrieval, and analysis.
-
-5. Configuration Guide: Offers guidance on customizing Node4i to meet specific industrial requirements, including configuration options and best practices.
-
-6. Security Guide: Provides information on the security features of Node4i, including encryption, authentication, and access control.
+4. Security Guide: Provides information on the security features of Node4i, including encryption, authentication, and access control.
 
 Please refer to the appropriate documentation for more information on using and configuring the IO Management component of Node4i.
