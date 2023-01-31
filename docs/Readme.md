@@ -5,9 +5,9 @@ Welcome to the Node4i documentation, where you'll find all the information you n
 ## Table of Contents
 
 - [IO Management](./IO-Management/Readme.md)
-- [Alarm & Events](./Alarm-Events/README.md)
-- [Historian](./Historian/README.md)
-- [Runtime & Components](./Runtime-Components/README.md)
+- [Alarm & Events](./Alarm-Events/Readme.md)
+- [Historian](./Historian/Readme.md)
+- [Runtime & Components](./Runtime-Components/Readme.md)
 
 Each section provides a comprehensive guide to the related services and their functionalities in the Node4i platform, designed specifically to meet the demands of industrial environments.
 
