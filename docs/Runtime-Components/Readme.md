@@ -86,3 +86,35 @@ Here are some benefits of using Windowing Components:
 - Go to Dashboard
 - Choose "Add Windowing Component"
 - Fill the required parameters
+
+## Interfaces
+The Runtime Components Interfaces in Node4i platform allow communication and interaction with different components within the system. They provide a way for data to be exchanged, processed and acted upon in real-time. The main components include:
+
+- [UaInterface](./Interfaces/UaInterface.md) 
+  - This interface provides methods for accessing and interacting with OPC UA nodes and triggering events. It allows for reading and writing of values to the nodes, as well as sending messages to other systems such as Kafka, MQTT, RabbitMQ, and ActiveMQ.
+- [AlarmEventInterface](./Interfaces/AlarmEventInterface.md)
+  -  The AlarmEventInterface is a component in the Node4i system that is responsible for managing alarms and events within the platform.
+
+
+## Real-Time Data Processing
+
+Real-Time Data Processing refers to the ability to process and analyze data as it is generated or acquired, rather than
+after it has been stored. It is a critical component in many industrial and business processes where quick and accurate
+decision-making is essential.
+
+In the context of Node4i's Runtime Components, real-time data processing involves the ability to perform real-time data
+analysis and manipulation on data acquired from industrial devices and sensors. This includes the ability to process
+large amounts of data in real-time, perform data filtering, aggregation, and transformation, and make decisions based on
+the processed data.
+
+The real-time data processing capabilities of Node4i's Runtime Components are critical for a variety of industrial
+applications, including process control, predictive maintenance, and machine learning. These capabilities enable users
+to make informed decisions based on real-time data, improve the efficiency and accuracy of industrial processes, and
+reduce downtime and maintenance costs.
+
+Node4i's Runtime Components are designed to be highly scalable and flexible, allowing users to easily process and
+analyze large amounts of data in real-time. They also provide robust security features to ensure that sensitive data is
+protected, and support a wide range of industrial protocols and data formats, making it easy to integrate with existing
+industrial systems and devices.
+
+Read More About [Real-Time Data Processing](./Real-Time-Data-Processiong/Real-time-Data-Processing.md)

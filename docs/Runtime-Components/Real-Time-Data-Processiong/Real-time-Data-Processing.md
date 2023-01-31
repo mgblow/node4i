@@ -13,11 +13,3 @@ Real-time data processing is a critical aspect of industrial automation, and Nod
 3. [Data Visualization](Data-Visualization.md)
     - Explanation of how Node4i enables data visualization in real-time.
     - Discussion of how real-time data visualization can benefit industrial automation.
-
-4. Real-time Data Processing Workflows
-    - Explanation of how Node4i enables real-time data processing workflows.
-    - Discussion of how real-time data processing workflows can benefit industrial automation.
-
-5. Performance and Scalability
-    - Overview of the performance and scalability of Node4i's real-time data processing capabilities.
-    - Explanation of how Node4i can be optimized for performance and scalability.
