@@ -36,6 +36,9 @@ and receive notifications and alerts in real-time.
 1. Create a Condition Class: The first step in creating an Alarm is to create a condition class. This can be done
    through the Alarm & Events management dashboard by choosing the Alarm & Events option from the menu.
 
+![Event Groups](../../media//event-groups-pic.png "Event Class in Node4i")
+
+
 2. Fill Alarm Inputs: The inputs required for creating an Alarm are:
 
     - name: A unique name to identify the alarm.
@@ -66,6 +69,9 @@ and receive notifications and alerts in real-time.
 
     - history: The historical data of the alarm, which can be used for reporting and analysis.
 
+
+![Event Groups](../../media/event-def-pic.png "Event Definition in Node4i")
+
 ### Group Alarms:
 
 - Alarms can also be grouped by a group name, which allows you to better organize and manage your alarms.
@@ -95,6 +101,10 @@ Here are a few example use cases of Node4i in the mining, truck dispatching, and
    updates on traffic conditions and helping them avoid congestion. The runtime components feature can be used to
    automate various processes in the transportation system, such as generating reports on vehicle usage and fuel
    consumption.
+
+
+![Event Groups](../../media/event-monitoring-groups.png "Optional title")
+
 
 In all of these industries, Node4i helps to improve efficiency, increase safety, and reduce costs by automating
 processes and monitoring critical systems.

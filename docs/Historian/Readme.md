@@ -55,3 +55,4 @@ The [UaInterface](../Runtime-Components/Interfaces/UaInterface.md) provides a co
 
 The dashboard provides a graphical table of archived values and allows you to export your data to an Excel file. This provides a convenient way to access and analyze your archived data.
 
+![Archived Event data](../../media/event-logs.png "Event Definition in Node4i")

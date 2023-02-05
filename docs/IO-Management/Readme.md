@@ -3,6 +3,8 @@
 The IO Management component of Node4i provides a comprehensive set of features for managing industrial Input/Output (
 I/O) data. This includes:
 
+![Event Groups](../../media/IO-add-pic.png "IO management in Node4i")
+
 ## Features
 
 1. Support for various communication protocols, including Kafka, AMQP, MQTT, HTTP, OPC UA, S7 Siemens, and Modbus.

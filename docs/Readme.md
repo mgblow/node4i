@@ -2,6 +2,10 @@
 
 Welcome to the Node4i documentation, where you'll find all the information you need to get started with the platform and take full advantage of its features.
 
+![Event Groups](../media/servers.png "Event Definition in Node4i")
+![Event Groups](../media/UDT-pic-2.png "Event Definition in Node4i")
+
+
 ## Table of Contents
 
 - [IO Management](./IO-Management/Readme.md)

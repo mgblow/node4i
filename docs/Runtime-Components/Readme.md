@@ -63,6 +63,9 @@ Here are some benefits of using General Components:
 - Choose "Add General Component"
 - Fill the required parameters
 
+
+![Event Groups](../../media/component-add-pic.png "Event Definition in Node4i")
+
 ## Windowing Component
 
 Windowing Components are a type of runtime component that allows users to choose specific nodes and observe their
@@ -86,6 +89,8 @@ Here are some benefits of using Windowing Components:
 - Go to Dashboard
 - Choose "Add Windowing Component"
 - Fill the required parameters
+
+![Event Groups](../../media/component-add-pic.png "Event Definition in Node4i")
 
 ## Interfaces
 The Runtime Components Interfaces in Node4i platform allow communication and interaction with different components within the system. They provide a way for data to be exchanged, processed and acted upon in real-time. The main components include:
