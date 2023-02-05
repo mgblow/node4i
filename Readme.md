@@ -1,5 +1,5 @@
+![Event Groups](./media/node4i_logo-transformed.jpeg "Node4i is a comprehensive IIoT platform that enables industrial organizations to achieve Industry 4.0 concepts.")
 # Node4i
-
 Node4i is a comprehensive IIoT platform that enables industrial organizations to achieve Industry 4.0 concepts in a
 unified and standardized manner.
 
