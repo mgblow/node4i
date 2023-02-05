@@ -90,7 +90,7 @@ Here are some benefits of using Windowing Components:
 - Choose "Add Windowing Component"
 - Fill the required parameters
 
-![Event Groups](../../media/component-add-pic.png "Event Definition in Node4i")
+![Event Groups](../../media/components-windowing.png "Event Definition in Node4i")
 
 ## Interfaces
 The Runtime Components Interfaces in Node4i platform allow communication and interaction with different components within the system. They provide a way for data to be exchanged, processed and acted upon in real-time. The main components include:
