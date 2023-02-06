@@ -28,8 +28,8 @@ docker run --network="host" -d --name node4i-dashboard \
 -e VUE_APP_MQTT_HOST="[MQTT_IP]" \
 -e VUE_APP_MQTT_PORT="[MQTT_PORT]" \
 -e VUE_APP_SERVER_URI="http://[CLIENT_IP]:[CLIENT_PORT]" \
--e VUE_APP_POD_URI="https://accounts.pod.ir" \
--e VUE_APP_POD_CLIENT_ID="4204ecb244adbc50c0e6dd24e6e0" \
--e VUE_APP_POD_CLIENT_SECRET="01ae1d77" \
+-e VUE_APP_POD_URI="[NULL]" \
+-e VUE_APP_POD_CLIENT_ID="[CLIENT_ID]" \
+-e VUE_APP_POD_CLIENT_SECRET="[SECRET]" \
 -e VUE_APP_SINGIN_DRIVER="node4i_ACCOUNT" \
 -p 8080:8080 node4i-dashboard:latest
