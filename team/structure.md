@@ -1,5 +1,5 @@
 ## Overview & Purpose
-To achieve leadership in Industry 4.0, it is important for Fanitoring to clearly define the roles and responsibilities of each team member. This will help establish a well-structured team, similar to the existing structure of Fanap, but with necessary expansions to meet the desired goals.
+To achieve leadership in Industry 4.0, it is important for Node4i to clearly define the roles and responsibilities of each team member. This will help establish a well-structured team, similar to the existing structure, but with necessary expansions to meet the desired goals.
 
 ## Structure Standards
 
