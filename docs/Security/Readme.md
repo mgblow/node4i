@@ -29,4 +29,3 @@ Here is a comprehensive explanation of all the OPC UA security policies implemen
 - Aes256: This security policy uses AES encryption with a 256-bit key size for both data encryption and message signing. The use of a larger key size provides a higher level of security compared to Aes128, but also requires more computational resources. This policy is suitable for OPC UA applications that require a high level of security and have the computational resources to support it.
 
 In conclusion, the OPC UA security policies implemented in Node4i provide a range of security options that meet the diverse security requirements of applications. 
-# END

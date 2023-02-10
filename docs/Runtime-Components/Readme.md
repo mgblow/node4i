@@ -5,24 +5,24 @@ components in the system. The key features of the Runtime Component are:
 
 ## Features
 
-Event Management: The component allows to manage events and trigger them based on certain conditions and rules. The
-events can be used to trigger notifications or actions in the system.
+1. Event Management: The component allows to manage events and trigger them based on certain conditions and rules. The
+   events can be used to trigger notifications or actions in the system.
 
-1. Data Collection and Management: The component enables the collection of data from various sources and stores it for
+2. Data Collection and Management: The component enables the collection of data from various sources and stores it for
    analysis and reporting purposes. The data can be retrieved using the APIs provided by the component.
 
-2. Write Data to OPC UA: The component allows to write data to an OPC UA server, enabling the integration with existing
+3. Write Data to OPC UA: The component allows to write data to an OPC UA server, enabling the integration with existing
    industrial automation systems.
 
-3. Interoperability: The component allows the integration with different systems, protocols, and technologies through
+4. Interoperability: The component allows the integration with different systems, protocols, and technologies through
    the support for various messaging systems such as Kafka, MQTT, RabbitMQ, and ActiveMQ.
 
-4. Node Management: The component provides the capability to manage the nodes in the system and their configuration,
+5. Node Management: The component provides the capability to manage the nodes in the system and their configuration,
    enabling the customization of the system according to the requirements.
 
 ## Benefits for Industrial Processes
 
-1. The Runtime Component provides a number of benefits for industrial processes, some of which are:
+The Runtime Component provides a number of benefits for industrial processes, some of which are:
 
 2. Real-time Monitoring: The component provides real-time monitoring of the system, enabling the identification of
    issues and potential areas for improvement.
@@ -63,7 +63,6 @@ Here are some benefits of using General Components:
 - Choose "Add General Component"
 - Fill the required parameters
 
-
 ![Event Groups](../../media/component-add-pic.png "Compoenent Definition in Node4i")
 
 ## Windowing Component
@@ -93,13 +92,13 @@ Here are some benefits of using Windowing Components:
 ![Event Groups](../../media/components-windowing.png "Windowing omponent Definition in Node4i")
 
 ## Interfaces
+
 The Runtime Components Interfaces in Node4i platform allow communication and interaction with different components within the system. They provide a way for data to be exchanged, processed and acted upon in real-time. The main components include:
 
-- [UaInterface](./Interfaces/UaInterface.md) 
+- [UaInterface](./Interfaces/UaInterface.md)
   - This interface provides methods for accessing and interacting with OPC UA nodes and triggering events. It allows for reading and writing of values to the nodes, as well as sending messages to other systems such as Kafka, MQTT, RabbitMQ, and ActiveMQ.
 - [AlarmEventInterface](./Interfaces/AlarmEventInterface.md)
-  -  The AlarmEventInterface is a component in the Node4i system that is responsible for managing alarms and events within the platform.
-
+  - The AlarmEventInterface is a component in the Node4i system that is responsible for managing alarms and events within the platform.
 
 ## Real-Time Data Processing
 
