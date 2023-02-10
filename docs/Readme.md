@@ -14,7 +14,7 @@ Welcome to the Node4i documentation, where you'll find all the information you n
 - [Runtime & Components](./Runtime-Components/Readme.md)
 
 
-You can read about [Node4i Security](./Security/Readme.md) Here.
+Read about [Node4i Security Features](./Security/Readme.md) Here.
 
 Each section provides a comprehensive guide to the related services and their functionalities in the Node4i platform, designed specifically to meet the demands of industrial environments.
 
