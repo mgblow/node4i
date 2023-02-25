@@ -1,0 +1,66 @@
+package org.eclipse.milo.platform.runtime.methods.uaInterfaces;
+
+import org.eclipse.milo.opcua.sdk.core.ValueRanks;
+import org.eclipse.milo.opcua.sdk.server.api.methods.AbstractMethodInvocationHandler;
+import org.eclipse.milo.opcua.sdk.server.api.methods.InvalidArgumentException;
+import org.eclipse.milo.opcua.sdk.server.nodes.UaMethodNode;
+import org.eclipse.milo.opcua.stack.core.Identifiers;
+import org.eclipse.milo.opcua.stack.core.UaException;
+import org.eclipse.milo.opcua.stack.core.types.builtin.LocalizedText;
+import org.eclipse.milo.opcua.stack.core.types.builtin.Variant;
+import org.eclipse.milo.opcua.stack.core.types.structured.Argument;
+import org.eclipse.milo.platform.runtime.interfaces.UaInterface;
+import org.eclipse.milo.platform.validators.MethodInputValidator;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class SendMessageToActivemq extends AbstractMethodInvocationHandler {
+
+    public static final Argument ioName = new Argument("ioName", Identifiers.String, ValueRanks.Any, null, new LocalizedText("ioName"));
+    public static final Argument queueName = new Argument("queueName", Identifiers.String, ValueRanks.Any, null, new LocalizedText("queueName"));
+    public static final Argument message = new Argument("message", Identifiers.String, ValueRanks.Any, null, new LocalizedText("message"));
+
+    public static final Argument result = new Argument("result", Identifiers.String, ValueRanks.Any, null, new LocalizedText("result"));
+    private final Logger logger = LoggerFactory.getLogger(getClass());
+    public static String APP_NAME = null;
+    private UaMethodNode uaMethodNode;
+
+    public SendMessageToActivemq(UaMethodNode node) {
+        super(node);
+        this.uaMethodNode = node;
+        APP_NAME = uaMethodNode.getNodeContext().getServer().getConfig().getApplicationName().getText();
+    }
+
+    @Override
+    public Argument[] getInputArguments() {
+        return new Argument[]{ioName, queueName, message};
+    }
+
+    @Override
+    public Argument[] getOutputArguments() {
+        return new Argument[]{result};
+    }
+
+    @Override
+    protected Variant[] invoke(InvocationContext invocationContext, Variant[] inputValues) throws UaException {
+        try {
+            logger.debug("Invoking SendMessageToAMQPDevice method of objectId={}", invocationContext.getObjectId());
+            String ioName = inputValues[0].getValue().toString();
+            String queueName = inputValues[1].getValue().toString();
+            String message = inputValues[2].getValue().toString();
+            UaInterface.getInstance(this.uaMethodNode.getNodeContext()).sendMessageToActiveMQ(ioName, queueName, message);
+            return new Variant[]{new Variant(true)};
+        } catch (Exception e) {
+            logger.error("error in invoking SendMessageToAMQPDevice method of objectId={}", invocationContext.getObjectId());
+            return new Variant[]{new Variant(false)};
+        }
+    }
+    protected void validateInputArgumentValues(Variant[] inputArgumentValues) throws InvalidArgumentException {
+        MethodInputValidator.NotNull(this, ioName,queueName,message);
+        MethodInputValidator.Exists(this,ioName,APP_NAME+"/IO/");
+        if (this.inputErrorMessages.size() != 0) {
+            throw new InvalidArgumentException(null);
+        }
+    }
+}
+

@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "platform"
+    ],
+    "java.configuration.updateBuildConfiguration": "automatic"
+}
